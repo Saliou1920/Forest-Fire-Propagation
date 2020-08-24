@@ -1,17 +1,46 @@
-## README
+# [Read Me](#read-me)
 
-### Télécharger le projet
+
+### Table des Matières
+
+- [Description](#description)
+- [Comment utiliser le projet ?](#Comment-utiliser-le-projet-?)
+- [References](#references)
+
+---
+
+# Description
+
+Le but du projet est d’une part, de mettre en place un outil de simulation de feu de forêt en utilisant Unity pour avoir les donnees.
+
+Et d’autre part, d’utiliser l’apprentissage profond pour faire des prédictions.
+
+#### Technologies
+
+- Unity verion 2019.3.0f6
+- C#
+
+
+---
+
+# Comment utiliser le projet ?
+
+#### **Installation**
+
+Pour commencer à travailler sur ce projet, crée un nouveau projet sur Unity et importe le package du projet, à télécharger à partir des liens ci-dessous. 
 
 * **Fire Propagationv1.1** : C'est la version la plus stable <br/>
-Vous pouvez le télécharger à partir [ici](https://drive.google.com/file/d/1toJFugbBAhvqBi7Y_pVfPhw2u8lffigz/view?usp=sharing)
+Vous pouvez le télécharger à partir [ici](https://drive.google.com/file/d/15Lh0t7KhX8-TZPmwHdtj3Wcjy4w4LDoG/view?usp=sharing)
 * **Realistic Forest** : C'est la version la plus réaliste mais il y a des choses à améliorer 
    * Avant d'ajouter les arbres il faut vérifier si le sol prend feu d'abord 
    * Ajouter les arbres sur le terrain 
    * Contrôler la propagation du feu au niveau du lac et des rivières sur le terrain 
-   * Vous pouvez le télécharger à partir [ici](https://drive.google.com/file/d/1QPo6h168gPSVpS8piR3omxl1EXdPquPw/view?usp=sharing)
+   * Vous pouvez le télécharger à partir [ici](https://drive.google.com/file/d/1qKAxMBDQDOh3ab8zZFJnE4_DcCEKH72A/view?usp=sharing)
 <br/>
+#### **Description de l'asset**
 
 Dans le dossier asset:
+
 * Fire Propagation : C’est la base du projet. Il contient les dossiers comme Scripts, Scènes, Prefabs
 * Nature Manufacture : ce dossier contient différents types d’arbres plus réaliste, des routes et des rochers.
 * Fire Effects : Il contient des prefabs sur différents types d’effets de feu et d’explosion 
@@ -39,6 +68,15 @@ J’ai trouvé plus simple de faire une petite vidéo pour expliquer cela. La vi
 * ectractImage.py : permet d’extraire tous les frames d’une vidéo
 * resize.py : C’est pour resizer la taille des images
 
-**Pour plus de details sur la documentation voire le document Instructions**
+**Pour plus de details sur la documentation voir le document Instructions**
 
+---
+
+## References
+- Fire Propagation - [@unity Asset Store](https://assetstore.unity.com/packages/tools/fire-propagation-92187)
+- Lewis Ward -  [@lewis-ward.com](http://www.lewis-ward.com/unity-fire-propagation-system.html)
+  
+[Back To The Top](#read-Me)
+
+---
 
